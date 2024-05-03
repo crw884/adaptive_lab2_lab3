@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,ul{
+    margin: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h1{
+    font-size: 480px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 576px) {
+        font-size: 27px;
+    }
+}

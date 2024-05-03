@@ -1,0 +1,53 @@
+.possibilities__card{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 31px;
+    border-radius: 15px;
+    background-color: #DFE1FF;
+}
+
+.possibilities .row .col-3:nth-child(even){
+    .possibilities__card{
+            background-color: #FFE1AD;
+    }
+}
+
+.possibilities{
+    margin-bottom: 67px;
+    h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    @media screen and (max-width:1024px) {
+        display: none;
+    }
+}
+
+.possibilities__title{
+    display: flex;
+    justify-content: center;
+}
+
+.possibilities__card-name{
+    font-size: 20px;
+    text-align: center;
+}
+
+.possibilities__card-description{
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+}
+
+.possibilities__card-img-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

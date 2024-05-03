@@ -1,0 +1,31 @@
+footer{
+    margin-bottom: 50px;
+    @media screen and (max-width: 576px){
+        margin-bottom: 27px;
+        .col-sm-2{
+            display: flex;
+            justify-content: center;
+            &:last-child{
+                margin: 35.77px 0 32px 0;
+            }
+        }
+        .col-sm-4{
+            display: flex;
+            justify-content: center;
+            p{  
+                font-size: 14px;
+                text-align: center;
+                color: #8F99AC;
+                padding: 0 21px;
+            }
+            &:first-child{
+                margin: 32px 0 33px 0;
+            }
+        }
+    }
+}
+
+.footer-right{
+    display: flex;
+    justify-content: end;
+}

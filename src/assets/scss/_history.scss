@@ -1,0 +1,33 @@
+.history{
+    .col-sm-6:first-child{
+        margin: auto 0;
+    }
+    .col-sm-6:last-child{
+       img{
+            width: 100%;
+       } 
+    }
+    margin-bottom: 80px;
+    width: auto;
+    img{
+        border-radius: 10px;
+        box-shadow: 0 10px 50px 0 rgba(0,0,0,.2);
+    }
+    @media screen and (max-width: 1024px) {
+        img{
+            width: 110%;
+            box-shadow: 0px 10px 50px 0px #4047E220;
+            margin-left: -1 * calc(1.5rem * .5);
+            @media screen and (min-width: 576px){
+                width: 100%;
+            }
+        }
+        h2{
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+}
